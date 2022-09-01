@@ -5,3 +5,8 @@ bool char
 int
 float 
 double
+
+Operators
+Arithmetic opeartors +,-,%,*
+Logical opeartors && || !
+Relational Operators >,<=,==
