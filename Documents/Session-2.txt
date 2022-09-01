@@ -1,0 +1,7 @@
+Data-types
+
+Value type  refernce type
+bool char
+int
+float 
+double
