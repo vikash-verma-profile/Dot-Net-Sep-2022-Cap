@@ -1,0 +1,6 @@
+git init--Create a .git folder and initalize the git
+git add . ==> this will add all files for commit in git
+git commit -m "first commit"==>this will create a batch that you want to upload on remote server
+git branch -M main ==> this will create a Main brach in repository
+git remote add origin https://github.com/vikash-verma-profile/Dot-Net-Sep-2022-Cap.git
+git push -u origin main==> this is push all local code to remote repo
