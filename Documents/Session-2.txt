@@ -10,3 +10,5 @@ Operators
 Arithmetic opeartors +,-,%,*
 Logical opeartors && || !
 Relational Operators >,<=,==
+
+check weather a person is elible for voting or not and also if age is >60 print he is senior citizen and eligible for voting

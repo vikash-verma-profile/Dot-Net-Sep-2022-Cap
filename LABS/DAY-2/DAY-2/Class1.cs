@@ -6,7 +6,7 @@ namespace DAY_2
 {
     class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             //maximum of 3 numbers
             //1,2,3
