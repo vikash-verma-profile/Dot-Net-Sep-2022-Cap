@@ -8,7 +8,7 @@ namespace Day_3
     //var vs dynamic
     class Class6
     {
-        public static void Main()
+        public static void Main7()
         {
             var i = 1;//integer type
                       //Compile time variable
