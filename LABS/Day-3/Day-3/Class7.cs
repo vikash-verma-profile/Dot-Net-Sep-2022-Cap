@@ -11,10 +11,11 @@ namespace Day_3
     class Class7
     {
         //ref we have to assign some value to parameter before passing it to function
-        public static void Main()
+        public static void Main8()
         {
             int a =1, b=4 ;
-            Console.WriteLine(Sum(ref a, ref b));
+            int c=1, d=9;
+            Console.WriteLine(Sum(ref c, ref d));
             int result;
             SumOut(a,b,out result);
             Console.WriteLine(result);
