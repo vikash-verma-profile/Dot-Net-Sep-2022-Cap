@@ -1,0 +1,10 @@
+Comments
+1.Single line comment ==> //
+2.Multi Line comment  ===> /*   */
+
+Type Casting
+
+One Data type to other
+
+Implicit ==>promotion and demotion
+explicit
