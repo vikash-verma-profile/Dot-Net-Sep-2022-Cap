@@ -9,7 +9,7 @@ namespace Day_3
         /*
          * <return-type> nameoffunction (number of aruguments)
          */
-        public static void Main()
+        public static void Main3()
         {
             Sum(1,2);
             int result=ADD(3, 4);
