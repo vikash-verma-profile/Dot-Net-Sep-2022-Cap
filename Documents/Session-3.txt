@@ -14,3 +14,5 @@ Create a program to chcek which number is maximum from 3 numbers
 CReate a program to add all the arithmatic operations
 
 write a program to swap two numbers by using functions
+
+write  a program to check weather user have entered correct Numeric value or not

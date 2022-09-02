@@ -15,7 +15,7 @@ namespace Day_3
             b = c;
             Console.WriteLine("Values after Swapping a= " + a + " b= " + b);
         }
-        public static void Main()
+        public static void Main5()
         {
             int a = 1, b = 2;
             Console.WriteLine("Values Before Swapping a= " + a + " b= " + b);
