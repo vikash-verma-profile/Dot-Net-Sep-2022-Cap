@@ -15,7 +15,7 @@ namespace Day_3
     /// </summary>
     class Class8
     {
-        public static void Main()
+        public static void Main9()
         {
             SumIN(1, 2);
             int result;
