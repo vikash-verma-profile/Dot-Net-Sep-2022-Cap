@@ -12,3 +12,5 @@ explicit
 Create a program to check wether a input is odd or even
 Create a program to chcek which number is maximum from 3 numbers
 CReate a program to add all the arithmatic operations
+
+write a program to swap two numbers by using functions
