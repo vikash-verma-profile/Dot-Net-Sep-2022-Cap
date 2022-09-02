@@ -15,7 +15,7 @@ namespace Day_3
     //switch  and type casting
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("Hello World!");
             int a = 5;//4 bytes
@@ -30,7 +30,9 @@ namespace Day_3
             //int.parse
             //int.tryparse
             Console.WriteLine("Please enter some number");
-            int Number1 = Convert.ToInt32(Console.ReadLine());
+            string InputValue = Console.ReadLine();//Always return string type of value
+            int Number1 = Convert.ToInt32(InputValue);
+           
             Console.WriteLine("Input value given by user is "+Number1);
         }
     }
