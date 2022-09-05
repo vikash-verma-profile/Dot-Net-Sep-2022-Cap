@@ -16,3 +16,14 @@ CReate a program to add all the arithmatic operations
 write a program to swap two numbers by using functions
 
 write  a program to check weather user have entered correct Numeric value or not
+
+Write a program to find odd and even from a arraylist
+write a program to find sum of all array elements
+
+1.Single Dimensional array
+2.2d Array
+3.Jagged array
+
+Sum 2 matrix
+Multiply 2 matrix
+Transpose of 2 matrix
