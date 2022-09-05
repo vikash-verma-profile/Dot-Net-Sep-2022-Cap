@@ -38,7 +38,7 @@ namespace Day_4
     }
     class Class4
     {
-        public static void Main()
+        public static void Main5()
         {
             //<class Name> objectname =new //();
             Student student = new Student();

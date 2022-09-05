@@ -6,3 +6,8 @@ OOPS
 4.Polymorphism 
 
 class /object
+
+Creata an employee 
+-employeeID
+-EmployeeName
+-EMployeeSalary

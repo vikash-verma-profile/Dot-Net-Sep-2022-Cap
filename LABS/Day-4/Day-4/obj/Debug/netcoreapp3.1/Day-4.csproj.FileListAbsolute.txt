@@ -4,7 +4,6 @@ C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\bin\Debug\netcoreapp3.1\Da
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\bin\Debug\netcoreapp3.1\Day-4.runtimeconfig.dev.json
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\bin\Debug\netcoreapp3.1\Day-4.dll
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\bin\Debug\netcoreapp3.1\Day-4.pdb
-C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\obj\Debug\netcoreapp3.1\Day-4.csproj.AssemblyReference.cache
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\obj\Debug\netcoreapp3.1\Day-4.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\obj\Debug\netcoreapp3.1\Day-4.AssemblyInfoInputs.cache
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\obj\Debug\netcoreapp3.1\Day-4.AssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\obj\Debug\netcoreapp3.1\Da
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\obj\Debug\netcoreapp3.1\Day-4.dll
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\obj\Debug\netcoreapp3.1\Day-4.pdb
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\obj\Debug\netcoreapp3.1\Day-4.genruntimeconfig.cache
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-4\Day-4\obj\Debug\netcoreapp3.1\Day-4.csproj.AssemblyReference.cache
