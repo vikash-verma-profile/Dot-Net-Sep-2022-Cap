@@ -1,0 +1,8 @@
+OOPS
+
+1.Abstraction
+2.Encapsultion class and object
+3.Inheritence base/parent class and child class/derived class
+4.Polymorphism 
+
+class /object
