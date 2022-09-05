@@ -28,7 +28,7 @@ namespace Day_4
     }
     class Class6
     {
-        public static void Main()
+        public static void Main7()
         {
             //DummyBase b = new DummyBase();
             //b.Print();

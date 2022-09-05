@@ -12,7 +12,37 @@ namespace Day_4
     /// 4.Herarical Inheritance
     /// 5.Hybrid Inheritance
     /// </summary>
+    /// 
+    class Animal
+    {
+        public void eat()
+        {
+            Console.WriteLine("Eating");
+        }
+    }
+    class Dog:Animal
+    {
+        public void bark()
+        {
+            Console.WriteLine("Barking");
+        }
+    }
+    class BabyDog:Dog
+    {
+        public void weep()
+        {
+            Console.WriteLine("Weeping......");
+        }
+
+    }
     class Class7
     {
+        public static void Main8()
+        {
+            BabyDog d1 = new BabyDog();
+            d1.eat();
+            d1.bark();
+            d1.weep();
+        }
     }
 }

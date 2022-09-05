@@ -11,3 +11,6 @@ Creata an employee
 -employeeID
 -EmployeeName
 -EMployeeSalary
+
+abstract class
+Interface
