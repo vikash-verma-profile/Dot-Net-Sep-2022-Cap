@@ -8,7 +8,7 @@ namespace Day_4
     /// </summary>
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int[,] matrix = new int[2, 2];// { { 1, 2 },{ 3, 4 } };
              //Input from a 2d array

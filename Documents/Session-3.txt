@@ -27,3 +27,7 @@ write a program to find sum of all array elements
 Sum 2 matrix
 Multiply 2 matrix
 Transpose of 2 matrix
+
+Check weather a string is palindrome or not
+Madam==Madam
+DAD==DAD
