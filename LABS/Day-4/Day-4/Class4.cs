@@ -20,17 +20,30 @@ namespace Day_4
         //5.private protected
         //6.internal protected
 
-        public int a,b;
+        int RollNO;
+        string StudentName;
+        public void GetData()
+        {
+            Console.WriteLine("Please enter the student roll ");
+            RollNO = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter Student Name");
+            StudentName = Console.ReadLine();
+        }
+        public void PrintData()
+        {
+            Console.WriteLine("Student Details are:");
+            Console.WriteLine("Student RollNo : " + RollNO);
+            Console.WriteLine("Student Name : " + StudentName);
+        }
     }
     class Class4
     {
         public static void Main()
         {
             //<class Name> objectname =new //();
-            Student obj = new Student();
-            obj.a = 10;
-            obj.b = 20;
-            Console.WriteLine(obj.a + obj.b);
+            Student student = new Student();
+            student.GetData();
+            student.PrintData();
         }
     }
 }
