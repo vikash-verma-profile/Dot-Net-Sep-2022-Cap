@@ -38,7 +38,7 @@ namespace Day_4
     }
     class Class8
     {
-        public static void Main()
+        public static void Main9()
         {
             DerviedDummy s = new DerviedDummy();
             s.show();
