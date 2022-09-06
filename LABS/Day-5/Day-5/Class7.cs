@@ -32,11 +32,11 @@ namespace Day_5
     }
     class Class7
     {
-        public static void Main()
+        public static void Main8()
         {
             SampelA a = new SampelB();
-            a.show();//example of overriding
-            a.print();
+            a.show();//example of overriding and solution
+            a.print();//this was problem
         }
     }
 }
