@@ -8,12 +8,12 @@ namespace Day_5
     /// Sealed
     /// </summary>
     /// 
-    /// abstarct vs sealed
-    /// 1.we cannot create an object abstract class | we can craete an object of selaed
+    /// abstract vs sealed
+    /// 1.we cannot create an object abstract class | we can create an object of sealed
     /// 2.we can extend an class from abstract class| we cannot extend a class that is sealed
     /// 
 
-   abstract class SampleS1
+    abstract class SampleS1
     {
 
     }
@@ -30,6 +30,7 @@ namespace Day_5
         public static void Main()
         {
             //SampleS1 s = new SampleS1();
+            SampleS s1 = new SampleS();
         }
     }
 }
