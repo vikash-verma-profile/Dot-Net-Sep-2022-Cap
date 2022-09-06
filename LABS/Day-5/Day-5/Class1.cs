@@ -40,7 +40,7 @@ namespace Day_5
     }
     class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             //1.ToString();
             ABC2 abc = new ABC2();
