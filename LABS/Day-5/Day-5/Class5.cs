@@ -25,7 +25,7 @@ namespace Day_5
     }
     class Class5
     {
-        public static void Main()
+        public static void Main6()
         {
             MethodOverloading obj = new MethodOverloading();
             obj.Sum(1,2);
