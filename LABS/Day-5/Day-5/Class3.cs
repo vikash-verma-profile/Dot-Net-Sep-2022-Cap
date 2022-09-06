@@ -22,7 +22,7 @@ namespace Day_5
     }
     class Class3
     {
-        public static void Main()
+        public static void Main4()
         {
             Person[] people = new Person[2];
             Person p1 = new Person("Vikash verma");
