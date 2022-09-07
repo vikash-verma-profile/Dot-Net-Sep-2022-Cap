@@ -27,7 +27,7 @@ namespace Day_5
     }
     class Class8
     {
-        public static void Main()
+        public static void Main9()
         {
             //SampleS1 s = new SampleS1();
             SampleS s1 = new SampleS();
