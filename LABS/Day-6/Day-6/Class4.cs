@@ -9,7 +9,7 @@ namespace Day_6
     /// </summary>
     class Class4
     {
-        public static void Main()
+        public static void Main5()
         {
             string s = "vikash";
             char[] s1 = { 'v', 'i', 'k', 'a', 's', 'h' };
