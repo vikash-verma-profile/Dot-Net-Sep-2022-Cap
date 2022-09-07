@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Day_6
 {
+    /// <summary>
+    /// Solution of problem Given
+    /// </summary>
     class DoctorDetails
     {
         int RegistrationNo;
@@ -51,7 +54,7 @@ namespace Day_6
     }
     class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             Console.WriteLine("Please enter doctor details");
             DoctorDetails d = new DoctorDetails();
