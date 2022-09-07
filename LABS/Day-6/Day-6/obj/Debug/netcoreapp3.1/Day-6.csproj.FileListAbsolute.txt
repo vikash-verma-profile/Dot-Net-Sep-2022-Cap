@@ -1,0 +1,14 @@
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\bin\Debug\netcoreapp3.1\Day-6.exe
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\bin\Debug\netcoreapp3.1\Day-6.deps.json
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\bin\Debug\netcoreapp3.1\Day-6.runtimeconfig.json
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\bin\Debug\netcoreapp3.1\Day-6.runtimeconfig.dev.json
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\bin\Debug\netcoreapp3.1\Day-6.dll
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\bin\Debug\netcoreapp3.1\Day-6.pdb
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\obj\Debug\netcoreapp3.1\Day-6.csproj.AssemblyReference.cache
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\obj\Debug\netcoreapp3.1\Day-6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\obj\Debug\netcoreapp3.1\Day-6.AssemblyInfoInputs.cache
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\obj\Debug\netcoreapp3.1\Day-6.AssemblyInfo.cs
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\obj\Debug\netcoreapp3.1\Day-6.csproj.CoreCompileInputs.cache
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\obj\Debug\netcoreapp3.1\Day-6.dll
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\obj\Debug\netcoreapp3.1\Day-6.pdb
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-6\Day-6\obj\Debug\netcoreapp3.1\Day-6.genruntimeconfig.cache
