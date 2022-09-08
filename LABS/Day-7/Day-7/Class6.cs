@@ -23,7 +23,7 @@ namespace Day_7
     }
     class Class6
     {
-        public static void Main()
+        public static void Main7()
         {
             PA a = new PA();
             a.A = 1;
