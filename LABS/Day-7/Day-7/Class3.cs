@@ -28,7 +28,7 @@ namespace Day_7
     }
     class Class3
     {
-        public static void Main()
+        public static void Main4()
         {
             SampleCopyConstructor s1 = new SampleCopyConstructor("Vikash Verma");
             SampleCopyConstructor s2 = new SampleCopyConstructor(s1);
