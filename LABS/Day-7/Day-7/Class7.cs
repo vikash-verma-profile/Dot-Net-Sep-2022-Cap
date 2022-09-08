@@ -28,7 +28,7 @@ namespace Day_7
     class Class7
     {
         //indexers will be created using this keyword
-        public static void Main()
+        public static void Main8()
         {
             IndexerClass c = new IndexerClass();
             c[0] = "Vikash Verma";
