@@ -7,23 +7,36 @@ namespace Day_7
     /// <summary>
     /// Structures and enums
     /// </summary>
-    /// 
-    struct Employee
+    /// Structures vs classes
+
+    public struct EmployeeM
     {
-        public int employeeId;
-        public string employeeName;
+        private int employeeId;
+        private string employeeName;
+        public string address;
+
+        public void GetData()
+        {
+            Console.WriteLine("Please enter employee Name");
+            employeeName = Console.ReadLine();
+            Console.WriteLine("Please enter employee ID");
+            employeeId = Convert.ToInt32(Console.ReadLine());
+        }
+        public void Print()
+        {
+            Console.WriteLine("Employee Details are :");
+            Console.WriteLine("EmployeeID : {0} Employee Name {1} ", employeeId, employeeName);
+        }
     };
     class Class4
     {
         public static void Main()
         {
-            Employee e;
-            Console.WriteLine("Please enter employee Name");
-            e.employeeName=Console.ReadLine();
-            Console.WriteLine("Please enter employee ID");
-            e.employeeId = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Employee Details are :");
-            Console.WriteLine("EmployeeID : {0} Employee Name {1} ",e.employeeId,e.employeeName);
+
+            EmployeeM e = new EmployeeM() ;
+            e.address = "Hi";
+            e.GetData();
+            e.Print();
         }
     }
 }
