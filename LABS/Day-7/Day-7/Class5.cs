@@ -14,7 +14,7 @@ namespace Day_7
     }
     class Class5
     {
-        public static void Main()
+        public static void Main6()
         {
             Console.WriteLine(Status.Active);
             Console.WriteLine((int)Status.Active);
