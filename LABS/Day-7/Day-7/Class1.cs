@@ -50,7 +50,7 @@ namespace Day_7
     }
     class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
              B b = new B();
             //b.Print();
