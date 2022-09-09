@@ -13,7 +13,7 @@ namespace Day_8
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int a = 7, b = 0;
             int c;
