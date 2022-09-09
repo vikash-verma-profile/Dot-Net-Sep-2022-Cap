@@ -23,7 +23,7 @@ namespace Day_8
                 throw new Myexception("Please enter age greater than 18");
             }
         }
-        public static void Main()
+        public static void Main2()
         {
             try{
                 Validate(12);
