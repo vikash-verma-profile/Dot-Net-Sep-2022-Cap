@@ -31,7 +31,7 @@ namespace Day_8
     }
     class Class2
     {
-        public static void Main()
+        public static void Main3()
         {
             SampleC c = new SampleC(2);
         }
