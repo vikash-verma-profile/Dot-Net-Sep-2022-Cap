@@ -46,7 +46,7 @@ namespace Day_8
             }
             return new Employee();
         }
-        public static void Main()
+        public static void Main4()
         {
             bool flag = true;
             List<Employee> employeeList = new List<Employee>();
