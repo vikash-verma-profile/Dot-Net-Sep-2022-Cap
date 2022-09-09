@@ -6,7 +6,7 @@ namespace Day_7
 {
     class Class9
     {
-        public static void Main()
+        public static void Main10()
         {
             Console.WriteLine("========List==============");
             List<int> al = new List<int>();
