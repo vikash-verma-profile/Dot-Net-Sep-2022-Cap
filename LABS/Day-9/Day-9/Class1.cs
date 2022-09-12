@@ -22,7 +22,7 @@ namespace Day_9
     }
     class Class1
     {
-        public static void Main()
+        public static void Main1()
         {
             //c# code to json format
             student student = new student();
