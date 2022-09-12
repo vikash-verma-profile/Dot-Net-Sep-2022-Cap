@@ -12,3 +12,5 @@ C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-9\Day-9\obj\Debug\netcoreapp3.1\Da
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-9\Day-9\obj\Debug\netcoreapp3.1\Day-9.dll
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-9\Day-9\obj\Debug\netcoreapp3.1\Day-9.pdb
 C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-9\Day-9\obj\Debug\netcoreapp3.1\Day-9.genruntimeconfig.cache
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-9\Day-9\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\om\Desktop\Dot-Net-Training\LABS\Day-9\Day-9\obj\Debug\netcoreapp3.1\Day-9.csproj.CopyComplete

@@ -5,7 +5,7 @@ namespace Day_9
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
 
             //Writing into a file

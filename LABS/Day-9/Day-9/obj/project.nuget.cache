@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0qYHeTrnhWsXnlCpUpnAvxWkc2+0nlU0ck9Zr5xyDt3VMmfY/3ExW3/IgzRW+h5U1/iPdCG/oL0B+6YNMQGGGA==",
+  "dgSpecHash": "C7TcRBiUJm39TFJfl0orJXRPkWUCUANAj7wYLbE1ZQu1aJklp4b3CI34VuK9skfvgG4J/Or6LFEZUtV2D+MF7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\om\\Desktop\\Dot-Net-Training\\LABS\\Day-9\\Day-9\\Day-9.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\om\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
