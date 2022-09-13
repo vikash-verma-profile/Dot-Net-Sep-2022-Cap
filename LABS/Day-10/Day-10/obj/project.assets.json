@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\om\\source\\repos\\Day-10\\Day-10\\Day-10.csproj",
+      "projectUniqueName": "C:\\Users\\om\\Desktop\\Dot-Net-Training\\LABS\\Day-10\\Day-10\\Day-10.csproj",
       "projectName": "Day-10",
-      "projectPath": "C:\\Users\\om\\source\\repos\\Day-10\\Day-10\\Day-10.csproj",
+      "projectPath": "C:\\Users\\om\\Desktop\\Dot-Net-Training\\LABS\\Day-10\\Day-10\\Day-10.csproj",
       "packagesPath": "C:\\Users\\om\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\om\\source\\repos\\Day-10\\Day-10\\obj\\",
+      "outputPath": "C:\\Users\\om\\Desktop\\Dot-Net-Training\\LABS\\Day-10\\Day-10\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -18,7 +18,7 @@ namespace Day_10
         {
             Console.WriteLine("Perimeter is {0}",2*width*height);
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Program c = new Program();
 
