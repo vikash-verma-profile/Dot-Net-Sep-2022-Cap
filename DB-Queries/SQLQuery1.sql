@@ -29,3 +29,28 @@ truncate table sample
 select * from Sample
 
 --truncate vs delete command
+
+Create table employee(id int,FirstName varchar(200),LastName varchar(200),Salary int,DepartmentId int)
+Create table department(id int,DepartmentName varchar(200))
+
+insert into employee values(1,'Vikash','Verma',10000,1)
+insert into employee values(2,'Ravi','Verma',5000,1)
+insert into employee values(3,'Roshan','Verma',2000,1)
+insert into employee values(4,'Suresh','Verma',20000,1)
+insert into employee values(5,'Rakesh','Verma',4000,1)
+insert into employee values(6,'Anjali','Verma',3000,5)
+
+select  * from employee
+select * from department
+insert into department values(1,'IT')
+insert into department values(2,'CS')
+insert into department values(3,'Admin')
+insert into department values(4,'Support')
+
+select e.id,e.FirstName,e.LastName,d.DepartmentName from employee e  inner join department d on d.id=e.DepartmentId
+
+update employee set DepartmentId=4 where id=3
+
+select e.id,e.FirstName,e.LastName,d.DepartmentName from employee e  LEFT OUTER join department d on d.id=e.DepartmentId
+select e.id,e.FirstName,e.LastName,d.DepartmentName from employee e  RIGHT OUTER join department d on d.id=e.DepartmentId
+select e.id,e.FirstName,e.LastName,d.DepartmentName from employee e  FULL OUTER join department d on d.id=e.DepartmentId
