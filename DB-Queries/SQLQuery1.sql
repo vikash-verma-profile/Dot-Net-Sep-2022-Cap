@@ -54,3 +54,13 @@ update employee set DepartmentId=4 where id=3
 select e.id,e.FirstName,e.LastName,d.DepartmentName from employee e  LEFT OUTER join department d on d.id=e.DepartmentId
 select e.id,e.FirstName,e.LastName,d.DepartmentName from employee e  RIGHT OUTER join department d on d.id=e.DepartmentId
 select e.id,e.FirstName,e.LastName,d.DepartmentName from employee e  FULL OUTER join department d on d.id=e.DepartmentId
+
+--used for searching
+select * from department where DepartmentName like '%I' --it should end with I
+select * from department where DepartmentName like '%T' --it should end with T
+select * from department where DepartmentName like 'I%' -- it will end with anything but should star with I
+select * from department where DepartmentName like '%I%' -- it will serach anywhere in the string it matches I letter
+
+select * from department order by id --by default its always asc
+select * from department order by id desc
+select * from department order by id asc
