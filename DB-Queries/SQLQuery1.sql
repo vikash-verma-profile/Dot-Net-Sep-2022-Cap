@@ -64,3 +64,12 @@ select * from department where DepartmentName like '%I%' -- it will serach anywh
 select * from department order by id --by default its always asc
 select * from department order by id desc
 select * from department order by id asc
+
+
+Create function GetFullName(@id int) 
+RETURNS varchar(200) as
+BEGIN
+ return (select CONCAT(FIRSTNAME,' ',LASTNAME) from employee where id=@id);
+END
+
+select dbo.GetFullName(id) as FULLNAME from employee
