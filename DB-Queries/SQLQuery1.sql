@@ -33,8 +33,8 @@ select * from Sample
 Create table employee(id int,FirstName varchar(200),LastName varchar(200),Salary int,DepartmentId int)
 Create table department(id int,DepartmentName varchar(200))
 
-insert into employee values(1,'Vikash','Verma',10000,1)
-insert into employee values(2,'Ravi','Verma',5000,1)
+insert into employee values(7,'Vikash','Verma',10000,1)
+insert into employee values(8,'Ravi','Verma',5000,1)
 insert into employee values(3,'Roshan','Verma',2000,1)
 insert into employee values(4,'Suresh','Verma',20000,1)
 insert into employee values(5,'Rakesh','Verma',4000,1)
@@ -84,3 +84,8 @@ select  CONCAT(FIRSTNAME,' ',LASTNAME) FullName from employee where Salary=(sele
 
 --find second highest salary of an employee
 
+select  FirstName from employee group by FirstName
+
+select FirstName from employee group by FirstName having count(*)>1
+
+select * from employee where id between 1 and 2
