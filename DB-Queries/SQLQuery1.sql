@@ -73,3 +73,14 @@ BEGIN
 END
 
 select dbo.GetFullName(id) as FULLNAME from employee
+
+select Max(salary) from employee
+select MIN(salary) from employee
+Select AVG(Salary) from employee
+select Count(*) from employee
+select GETDATE()
+
+select  CONCAT(FIRSTNAME,' ',LASTNAME) FullName from employee where Salary=(select Max(salary) from employee)
+
+--find second highest salary of an employee
+
