@@ -5,7 +5,7 @@ namespace ConnectWithDB
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //Create db context object
             TestDBContext db = new TestDBContext();
