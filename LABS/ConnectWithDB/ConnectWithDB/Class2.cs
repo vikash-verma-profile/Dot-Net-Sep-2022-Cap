@@ -39,7 +39,7 @@ namespace PersonApp1
 
     class class1
     {
-        public static void Main()
+        public static void Main2()
         {
 
             PersonImplementation s = new PersonImplementation();
