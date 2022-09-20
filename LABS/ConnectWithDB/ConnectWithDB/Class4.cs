@@ -48,7 +48,7 @@ namespace ConnectWithDB
     class Class4
     {
 
-        public static void Main()
+        public static void Main4()
         {
             var acceptedCurrencies = new List<string> { 
             "INR",
