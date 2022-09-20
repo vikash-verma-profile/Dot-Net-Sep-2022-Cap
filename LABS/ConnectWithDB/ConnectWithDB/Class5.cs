@@ -44,7 +44,7 @@ namespace ConnectWithDB
 	}
 	class Class5
 	{
-		static void Main(string[] args)
+		static void Main5(string[] args)
 		{
 			CupCake cc = new CupCake();
 			var res = cc.getPrice("Vanilla", 2, 0.5);
