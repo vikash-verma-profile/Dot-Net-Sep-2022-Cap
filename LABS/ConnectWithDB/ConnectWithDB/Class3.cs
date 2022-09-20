@@ -17,7 +17,7 @@ namespace ConnectWithDB
                 Console.WriteLine(item.Id + "   " + item.Text);
             }
         }
-        public static void Main()
+        public static void Main2()
         {
 
             /*selection
