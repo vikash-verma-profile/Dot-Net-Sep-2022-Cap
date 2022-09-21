@@ -20,6 +20,7 @@ namespace ConnectWithDB.Models
         public virtual DbSet<TblDepartment> TblDepartments { get; set; }
         public virtual DbSet<TblEmployee> TblEmployees { get; set; }
         public virtual DbSet<TblSample> TblSamples { get; set; }
+        public virtual DbSet<TblSubDepartment> TblSubDepartments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -65,6 +66,15 @@ namespace ConnectWithDB.Models
                 entity.Property(e => e.Id).HasColumnName("ID");
 
                 entity.Property(e => e.Text).HasMaxLength(2000);
+            });
+
+            modelBuilder.Entity<TblSubDepartment>(entity =>
+            {
+                entity.ToTable("tblSubDepartment");
+
+                entity.Property(e => e.DepartmentId).HasColumnName("DepartmentID");
+
+                entity.Property(e => e.SubDepartmentName).HasMaxLength(200);
             });
 
             OnModelCreatingPartial(modelBuilder);
