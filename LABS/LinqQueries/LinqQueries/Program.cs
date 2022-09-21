@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinqQueries.Models;
+using System;
 
 namespace LinqQueries
 {
@@ -6,7 +7,11 @@ namespace LinqQueries
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TestDBContext db = new TestDBContext();
+            foreach (var item in db.TblEmployees)
+            {
+                Console.WriteLine(item.EmployeeName);
+            }
         }
     }
 }

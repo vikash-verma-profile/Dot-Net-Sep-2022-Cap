@@ -1,0 +1,11 @@
+1.Intall dependencies 
+ Microsoft.EntityFrameworkCore
+ Microsoft.EntityFrameworkCore.Tools
+ Microsoft.EntityFrameworkCore.SqlServer
+
+2.Get Connection string
+	Data Source=DESKTOP-CUO3FKB;Initial Catalog=TestDB;Integrated Security=True
+
+3.Run Scanfold-DBcontext command in nuget packake manager console
+
+Scaffold-DbContext "Data Source=DESKTOP-CUO3FKB;Initial Catalog=TestDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
