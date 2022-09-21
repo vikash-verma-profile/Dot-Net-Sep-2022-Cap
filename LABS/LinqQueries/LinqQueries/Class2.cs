@@ -29,7 +29,24 @@ namespace LinqQueries
             foreach (var item in groupResult1)
             {
                 Console.WriteLine(item.Key);
+
             }
+            //Contains
+            var sample = studentList.Select(x => x.StudentName.Contains("Vikash"));
+            foreach (var item in sample)
+            {
+                Console.WriteLine(item);
+
+            }
+            Console.WriteLine("-========================");
+            IList<int> intList = new List<int>() { 1, 2, 3, 4, 5 };
+            bool result = intList.Contains(10);
+            Console.WriteLine(result);
+
+            Console.WriteLine("-==============Aggregate==========");
+            IList<string> strList = new List<string>() { "One", "Two", "Three", "Four" };
+            var commasepatedstring = strList.Aggregate((s1,s2)=>s1+","+s2);
+            Console.WriteLine(commasepatedstring);
         }
     }
 }
