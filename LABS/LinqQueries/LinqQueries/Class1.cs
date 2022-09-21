@@ -15,7 +15,7 @@ namespace LinqQueries
     }
     class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
 
             IList mixedList = new ArrayList();
@@ -50,7 +50,7 @@ namespace LinqQueries
             };
 
             var orderbyRasult = from s in studentList orderby s.StudentName select s;
-            var orderbyResult2 = studentList.OrderBy(x => x.StudentName);
+            var orderbyResult2 = studentList.OrderBy(x => x.StudentName).ThenBy(s=>s.StudentAge);
 
             Console.WriteLine("============Order by=======");
             foreach (var item in orderbyRasult)
