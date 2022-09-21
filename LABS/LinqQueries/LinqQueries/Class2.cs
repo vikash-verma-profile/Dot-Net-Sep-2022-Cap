@@ -47,6 +47,13 @@ namespace LinqQueries
             IList<string> strList = new List<string>() { "One", "Two", "Three", "Four" };
             var commasepatedstring = strList.Aggregate((s1,s2)=>s1+","+s2);
             Console.WriteLine(commasepatedstring);
+
+           var average= intList.Average();
+            Console.WriteLine(average);
+            //Average
+            //Count
+            //Max
+            //Sum
         }
     }
 }
