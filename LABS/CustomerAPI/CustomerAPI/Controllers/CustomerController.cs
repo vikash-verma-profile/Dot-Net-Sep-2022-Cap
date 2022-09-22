@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CustomerAPI.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,10 @@ namespace CustomerAPI.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
-        public string get()
+        CustomerDb1Context db = new CustomerDb1Context();
+        public IEnumerable<TblCustomer> get()
         {
-            return "Vikash";
+            return db.TblCustomers;
         }
     }
 }
