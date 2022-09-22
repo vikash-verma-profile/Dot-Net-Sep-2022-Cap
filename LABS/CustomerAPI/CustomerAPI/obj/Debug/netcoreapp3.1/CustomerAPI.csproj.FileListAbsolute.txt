@@ -60,3 +60,8 @@ C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerAPI\CustomerAPI\bin\Debug\netc
 C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerAPI\CustomerAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerAPI\CustomerAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerAPI\CustomerAPI\obj\Debug\netcoreapp3.1\CustomerAPI.csproj.CopyComplete
+C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerAPI\CustomerAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerAPI\CustomerAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerAPI\CustomerAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerAPI\CustomerAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerAPI\CustomerAPI\obj\Debug\netcoreapp3.1\CustomerAPI.MvcApplicationPartsAssemblyInfo.cs
