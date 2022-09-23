@@ -1,4 +1,5 @@
-﻿using CustomerLogin.ViewModel;
+﻿using CustomerLogin.Models;
+using CustomerLogin.ViewModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,12 +13,17 @@ namespace CustomerLogin.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-
+        LoginDBContext db;
+        public LoginController(LoginDBContext _db)
+        {
+            db = _db;
+        }
         [HttpPost]
         public IActionResult Login(LoginViewModel loginViewModel)
         {
-            
-            return Ok(new {Message= "Successfully login"});
+            var Islogin=db.TblLogins.Any(x => x.UserName == loginViewModel.UserName && x.Password == loginViewModel.Password);
+
+            return Ok(new {IsLogin= Islogin, Message= Islogin?"Successfully login":"Either username or password is incorrect" });
         }
     }
 }
