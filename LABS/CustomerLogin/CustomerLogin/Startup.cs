@@ -12,6 +12,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace CustomerLogin
 {
@@ -31,6 +34,21 @@ namespace CustomerLogin
             services.AddControllers();
             services.AddSwaggerGen();
             services.AddDbContext<LoginDBContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DbConnection")));
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
+                options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration["jwt:Issuer"],
+                        ValidAudience = Configuration["jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["jwt:Key"]))
+                    };
+                });
+        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
