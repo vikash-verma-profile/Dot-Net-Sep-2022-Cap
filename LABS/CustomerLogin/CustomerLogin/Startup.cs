@@ -90,7 +90,7 @@ namespace CustomerLogin
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseSwagger();
-            app.UseSwaggerUI(c=> { c.SwaggerEndpoint("swagger/v2/swagger.json", "Customer app v2"); });
+            app.UseSwaggerUI(c=> { c.SwaggerEndpoint("/swagger/v2/swagger.json", "Customer app v2"); });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

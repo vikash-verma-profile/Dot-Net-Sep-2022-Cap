@@ -53,7 +53,6 @@ C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerLogin\CustomerLogin\bin\Debug\
 C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerLogin\CustomerLogin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerLogin\CustomerLogin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerLogin\CustomerLogin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerLogin\CustomerLogin\obj\Debug\netcoreapp3.1\CustomerLogin.csproj.AssemblyReference.cache
 C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerLogin\CustomerLogin\obj\Debug\netcoreapp3.1\CustomerLogin.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerLogin\CustomerLogin\obj\Debug\netcoreapp3.1\CustomerLogin.AssemblyInfoInputs.cache
 C:\Users\om\Desktop\Dot-Net-Training\LABS\CustomerLogin\CustomerLogin\obj\Debug\netcoreapp3.1\CustomerLogin.AssemblyInfo.cs
